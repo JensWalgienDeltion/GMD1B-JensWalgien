@@ -1,25 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SpawnBall : MonoBehaviour {
+public class SpawnBall : MonoBehaviour{
+
     public float power;
     public GameObject prefab;
-    public GameObject Spawnball;
+    public GameObject pinballSpawn;
 
-    void Update()
+    public void SpawnPinball()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            SpawnPinball();
-        }
+
+        GameObject pinball = (GameObject)Instantiate(prefab, pinballSpawn.GetComponent<Transform>().position, pinballSpawn.GetComponent<Transform>().rotation);
+
+        pinball.GetComponent<Rigidbody>().velocity = pinballSpawn.GetComponent<Transform>().transform.forward * power;
     }
 
-    void SpawnPinball()
-    {
-        GameObject pinball = (GameObject)Instantiate(prefab, Spawnball.GetComponent<Transform>().position, Spawnball.GetComponent<Transform>().rotation);
-
-
-            pinball.GetComponent<Rigidbody>().velocity = transform.forward * power;
-    
-    }
 }
