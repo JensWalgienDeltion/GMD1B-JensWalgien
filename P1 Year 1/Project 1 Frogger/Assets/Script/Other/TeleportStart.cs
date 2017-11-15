@@ -7,17 +7,6 @@ public class TeleportStart : MonoBehaviour {
     public GameObject g;
 
 
-    void Start()
-    {
-
-    }
-
-
-    void Update()
-    {
-
-    }
-
     void OnCollisionEnter(Collision c)
     {
         v.y = 0;
