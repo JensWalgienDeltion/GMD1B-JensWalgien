@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcd41d1d2de88149bbff606c6718f88, type: 3}
+  m_Name: SphereBlue
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 4040d9baca9f07842bc7176a368d44b3, type: 3}
+  item: {fileID: 1756646437251648, guid: 4b7e2b80c0ef35f4185f843ad839e475, type: 2}
+  info: It's a blue sphere

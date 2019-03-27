@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fcd41d1d2de88149bbff606c6718f88, type: 3}
+  m_Name: SpherePink
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: ade1d8b8f3f3108438d7358cd18425da, type: 3}
+  item: {fileID: 1085770901930920, guid: 37a6245342e523e40a96bb92b6ed7edd, type: 2}
+  info: It's a pink sphere
